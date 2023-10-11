@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #FF8B94;
+    font-family: 'Sriracha', cursive;
+    color: white; 
+}
+table {
+    border:1px inset #b3adad;
+    border-collapse:collapse;
+    border-spacing:3px;
+    padding:8px;
+    font-family: 'Onest', sans-serif;
+}
+table th {
+    border:1px inset #b3adad;
+    padding:8px;
+    background: #f0f0f0;
+    color: #707070;
+    font-family: 'Sriracha', cursive;
+}
+table td {
+    border:1px inset #b3adad;
+    text-align:center;
+    padding:8px;
+    background: #ffffff;
+    color: #313030;
+}
+.pai{
+    background-color: #A8E6CF;
+    font-family: 'Onest', sans-serif;
+}
+.mae{
+    background-color: #FFAAA5;
+    font-family: 'Onest', sans-serif;
+}
+.filho{
+    background-color: #DCEDC1;
+    font-family: 'Onest', sans-serif;
+}
+.filha{
+    background-color: #FFD3B6;
+    font-family: 'Onest', sans-serif;
+}
+h2{
+    font-family: 'Sriracha', cursive;
+    color: #707070;
+}
+.conteudo{
+    display: flex;
+    justify-content:space-evenly;
+}
+.tabela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
