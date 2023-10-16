@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="atividadeong.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1>Ajude a Causa</h1>
+        </header>
+        <section>
+            <form action="http://localhost:3000/registrations" method="post">
+                <fieldset></br>
+                    <legend>Informações Pessoais</legend>
+                    <div class="entrada"><label for="name">Nome:</label> </br></br>
+                    <input class="inputtext" type="text" id="name" name="name"></div>
+                    <div class="entrada"><label for="idade">Idade:</label> </br></br>
+                    <input class="inputtext" type="number" id="idade" name="idade"></div>
+                    <div class="entrada"><label for="email">E-mail:</label> </br></br>
+                    <input class="inputtext" type="email" id="email" name="email" required></div>
+                    <div class="entrada"><label for="tamcamis">Tamanho da Camiseta:</label> </br></br>
+                    <select name="tamcamis" id="tamcamis">
+                        <option value="pp">PP</option>
+                        <option value="p">P</option>
+                        <option value="m">M</option>
+                        <option value="g">G</option>
+                        <option value="gg">GG</option>
+                    </select></div>
+                </fieldset> </br></br>
+                <fieldset> </br>
+                    <legend>Modalidade da Corrida</legend>
+                    <p>Categoria de Inscrição:</p> 
+                    <div class="categorias"><label for="3RUN">Corrida de 3km</label>
+                    <input type="radio" name="catinscr" id="3RUN" value="3RUN"></div> <br>
+                    <div class="categorias"><label for="5RUN">Corrida de 5km</label>
+                    <input type="radio" name="catinscr" id="5RUN" value="5RUN"></div> <br>
+                    <div class="categorias"><label for="4WALK">Caminhada de 4km</label>
+                    <input type="radio" name="catinscr" id="4WALK" value="4WALK"></div> </br>
+                    <div class="entrada"><label for="doacao">Valor da doação:</label> 
+                    <input class="inputtext" type="number" name="doacao" id="doacao"></div>
+                </fieldset>
+                <input type="submit" class="button">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
