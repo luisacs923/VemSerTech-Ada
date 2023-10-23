@@ -1,0 +1,48 @@
+*{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    color: red;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.fundo{
+    background-image: url("https://cdn.wallpapersafari.com/23/7/a2kz8M.jpg");
+    background-size: 100%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    filter: blur(8px);
+}
+.conteudo{
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+}
+header{
+    background-color: black;
+    height: 100px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filmes{
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    border-color: white;
+    border-style:none;
+}
